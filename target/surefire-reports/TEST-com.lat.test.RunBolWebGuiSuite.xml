@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lat.test.RunBolWebGuiSuite" time="54.216" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="LearnAutomationGUI"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="JENKIN_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="7df52dc39f297213"/>
+    <property name="POM_ARTIFACTID" value="LearnAutomationGUI"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="user.country.format" value="NL"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="LearnAutomationGUI"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\WINDOWS\TEMP"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="WINSW_SERVICE_ID" value="Jenkins"/>
+    <property name="user.name" value="NL03110$"/>
+    <property name="user.language.format" value="nl"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="LearnAutomationGUI"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8181/job/LearnAutomationGUI/41/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#41"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="USERNAME" value="NL03110$"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="41"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="C:\MyFolder\Software\apache-maven-3.5.4\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="GB"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8181/job/LearnAutomationGUI/41/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\WINDOWS\TEMP"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8181/job/LearnAutomationGUI/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_181"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="SERVICE_ID" value="Jenkins"/>
+    <property name="COMPUTERNAME" value="NL03110"/>
+    <property name="POM_GROUPID" value="com.lat.test"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-LearnAutomationGUI-41"/>
+    <property name="JENKINS_SERVER_COOKIE" value="7df52dc39f297213"/>
+    <property name="HUDSON_URL" value="http://localhost:8181/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\MyFolder\Software\apache-maven-3.5.4/bin;C:\Program Files\Java\jdk1.8.0_181/bin;C:\Program Files\Java\jdk1.8.0_181/bin;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\ImageMagick-7.0.8-Q16;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\lib;C:\MyFolder\Software\apache-maven-3.5.4;C:\MyFolder\Software\apache-maven-3.5.4\bin;C:\MyFolder\Software\sqldeveloper;C:\Program Files (x86)\SmartBear\SoapUI-5.4.0;C:\Program Files (x86)\SmartBear\SoapUI-5.4.0\bin;C:\Program Files\DbVisualizer;C:\MyFolder\Software\eclipse;C:\MyFolder\Software\Katalon_Studio\;C:\Program Files (x86)\Jenkins;C:\Program Files\TortoiseSVN\bin;C:\MyFolder\apache-jmeter-5.0\bin;C:\Program Files\nodejs\;C:\Program Files\Taurus\bin;C:\Program Files (x86)\KeePass Password Safe 2\;C:\Program Files\Liquid Technologies\Liquid Studio 2018\XmlDataBinder16\Redist16\cpp\win32\bin;C:\Program Files\Liquid Technologies\Liquid Studio 2018\XmlDataBinder16\Redist16\cpp\win64\bin;C:\Program Files\Git\bin;%DOCKER_HOME%;C:\Users\ldeshmukh\AppData\Local\Android\Sdk\tools;C:\Users\ldeshmukh\AppData\Local\Android\Sdk\platform-tools;C:\MyFolder\Software\eclipse;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\bsh-2.0b2.jar;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Sublime Text 3;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\ldeshmukh\AppData\Local\Microsoft\WindowsApps;C:\Users\ldeshmukh\.dotnet\tools;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\MyFolder\Software\apache-maven-3.5.4"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12.jar;C:\MyFolder\Software\apache-maven-3.5.4\boot\plexus-classworlds-2.5.2.jar;C:\MyFolder\Software\apache-maven-3.5.4/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\MyFolder\Software\apache-maven-3.5.4 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.27.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 55992"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_181/bin;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\ImageMagick-7.0.8-Q16;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\lib;C:\MyFolder\Software\apache-maven-3.5.4;C:\MyFolder\Software\apache-maven-3.5.4\bin;C:\MyFolder\Software\sqldeveloper;C:\Program Files (x86)\SmartBear\SoapUI-5.4.0;C:\Program Files (x86)\SmartBear\SoapUI-5.4.0\bin;C:\Program Files\DbVisualizer;C:\MyFolder\Software\eclipse;C:\MyFolder\Software\Katalon_Studio\;C:\Program Files (x86)\Jenkins;C:\Program Files\TortoiseSVN\bin;C:\MyFolder\apache-jmeter-5.0\bin;C:\Program Files\nodejs\;C:\Program Files\Taurus\bin;C:\Program Files (x86)\KeePass Password Safe 2\;C:\Program Files\Liquid Technologies\Liquid Studio 2018\XmlDataBinder16\Redist16\cpp\win32\bin;C:\Program Files\Liquid Technologies\Liquid Studio 2018\XmlDataBinder16\Redist16\cpp\win64\bin;C:\Program Files\Git\bin;%DOCKER_HOME%;C:\Users\ldeshmukh\AppData\Local\Android\Sdk\tools;C:\Users\ldeshmukh\AppData\Local\Android\Sdk\platform-tools;C:\MyFolder\Software\eclipse;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\bsh-2.0b2.jar;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Sublime Text 3;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\ldeshmukh\AppData\Local\Microsoft\WindowsApps;C:\Users\ldeshmukh\.dotnet\tools"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_181/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\MyFolder\Software\apache-maven-3.5.4"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="PATH+MAVEN" value="C:\MyFolder\Software\apache-maven-3.5.4/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8181/job/LearnAutomationGUI/41/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\MyFolder\Testing\personal\PersonalTests"/>
+    <property name="JOB_URL" value="http://localhost:8181/job/LearnAutomationGUI/"/>
+    <property name="USERDOMAIN" value="SALMONC4"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="C:\MyFolder\Software\apache-maven-3.5.4"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="41"/>
+    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="ANDROID_HOME" value="C:\Users\ldeshmukh\AppData\Local\Android\Sdk"/>
+    <property name="JENKINS_URL" value="http://localhost:8181/"/>
+    <property name="PROCESSOR_REVISION" value="8e0a"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar"/>
+    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\workspace\LearnAutomationGUI"/>
+    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase name="feature" classname="com.lat.test.RunBolWebGuiSuite" time="54.216">
+    <failure message="java.lang.AssertionError: expected [20,95] but found [40,95]" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [20,95] but found [40,95]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:128)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:112)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.AssertionError: expected [20,95] but found [40,95]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.lat.test.steps.pages.FreeShippingPages.verifyTotalPtoductPrice(FreeShippingPages.java:176)
+	at com.lat.test.steps.gui.FreeShippingSteps.user_verify_total_on_cart_page(FreeShippingSteps.java:73)
+	at ✽.And User verify total "shipping.charge.order.product-price-1" on cart page(freeShipping.feature:12)
+</failure>
+    <system-out><![CDATA[Configuring TestNG with: TestNG652Configurator
+Feature: As a Customer I order product with price more than of 20 euro Then I expect free shipping for the product
+
+  Scenario Outline: Verify shipping charges is free or not for the orderable product # freeShipping.feature:3
+    Given customer is on bol.com page
+    And customer verify language as "locale-language"
+    And customer search for a product "<product-name>"
+    And customer click on a search button
+    And customer click on add to cart button
+    When customer click on continueOrder button
+    And customer update the product quantity to "<quantity>"
+    Then customer verify shipping cost as "<freeShipping>" on cart page
+    And User verify total "<price>" on cart page
+    And User remove the product from the cart
+
+    Examples: 
+-- listing properties --
+profile.path=/profiles/test/config_NL.properties
+-- listing properties --
+shipping.charge.order.product-quantity-5=1
+shipping.charge.order.product-quantity-4=1
+shipping.charge.order.product-quantity-3=1
+shipping.charge.order.product-quantity-2=1
+extent.report.config=/src/test/resources/config/extent-con...
+shipping.charge.order.product-quantity-1=1
+shipping.charge.order.product-name-5=Structuurjunkie 4 - Structuurjunkie p...
+shipping.charge.order.product-name-4=Mascha Planner Business edition - Nie...
+site.url=https://www.bol.com
+shipping.charge.order.product-name-3=Tablet2you - Laptop sleeve - hoes - M...
+shipping.charge.order.product-name-2=2.0 hi speed USB Card Reader
+shipping.charge.order.product-freeShipping-5=NoGratis
+shipping.charge.order.product-name-1=PrintAbout - Inktcartridge / Alternat...
+shipping.charge.order.product-freeShipping-4=Gratis
+shipping.charge.order.product-freeShipping-3=NoGratis
+shipping.charge.order.product-freeShipping-2=NoGratis
+shipping.charge.order.product-freeShipping-1=Gratis
+shipping.charge.order.product-price-5=19,99
+shipping.charge.order.product-price-4=20,00
+shipping.charge.order.product-price-3=19,95
+shipping.charge.order.product-price-2=20,00
+shipping.charge.order.product-price-1=20,95
+Scenario=Verify shipping charges is free or no...
+locale-language=NL
+browser.width=1366
+browser.height=1024
+browser=chrome
+failure.screenshot.location=/target/extent-report/screenshot/
+platform=win32
+https://www.bol.com/nl/order/basket.html
+
+  Scenario Outline: Verify shipping charges is free or not for the orderable product                  # freeShipping.feature:16
+    Given customer is on bol.com page                                                                 # FreeShippingSteps.customer_is_on_bol_com_page()
+    And customer verify language as "locale-language"                                                 # FreeShippingSteps.customer_verify_language_as(String)
+    And customer search for a product "shipping.charge.order.product-name-1"                          # FreeShippingSteps.customer_search_for_a_product(String)
+    And customer click on a search button                                                             # FreeShippingSteps.customer_click_on_a_search_button()
+    And customer click on add to cart button                                                          # FreeShippingSteps.customer_click_on_add_to_cart_button()
+    When customer click on continueOrder button                                                       # FreeShippingSteps.customer_click_on_continueOrder_button()
+    And customer update the product quantity to "shipping.charge.order.product-quantity-1"            # FreeShippingSteps.customer_update_the_product_quantity_to(String)
+    Then customer verify shipping cost as "shipping.charge.order.product-freeShipping-1" on cart page # FreeShippingSteps.customer_verify_shipping_cost_as_on_cart_page(String)
+    And User verify total "shipping.charge.order.product-price-1" on cart page                        # FreeShippingSteps.user_verify_total_on_cart_page(String)
+      java.lang.AssertionError: expected [20,95] but found [40,95]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:513)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+      	at org.testng.Assert.assertEquals(Assert.java:116)
+      	at org.testng.Assert.assertEquals(Assert.java:190)
+      	at org.testng.Assert.assertEquals(Assert.java:200)
+      	at com.lat.test.steps.pages.FreeShippingPages.verifyTotalPtoductPrice(FreeShippingPages.java:176)
+      	at com.lat.test.steps.gui.FreeShippingSteps.user_verify_total_on_cart_page(FreeShippingSteps.java:73)
+      	at âœ½.And User verify total "shipping.charge.order.product-price-1" on cart page(freeShipping.feature:12)
+
+    And User remove the product from the cart                                                         # FreeShippingSteps.user_remove_the_product_from_the_cart()
+
+  Scenario Outline: Verify shipping charges is free or not for the orderable product                  # freeShipping.feature:17
+    Given customer is on bol.com page                                                                 # FreeShippingSteps.customer_is_on_bol_com_page()
+    And customer verify language as "locale-language"                                                 # FreeShippingSteps.customer_verify_language_as(String)
+    And customer search for a product "shipping.charge.order.product-name-5"                          # FreeShippingSteps.customer_search_for_a_product(String)
+    And customer click on a search button                                                             # FreeShippingSteps.customer_click_on_a_search_button()
+    And customer click on add to cart button                                                          # FreeShippingSteps.customer_click_on_add_to_cart_button()
+    When customer click on continueOrder button                                                       # FreeShippingSteps.customer_click_on_continueOrder_button()
+    And customer update the product quantity to "shipping.charge.order.product-quantity-5"            # FreeShippingSteps.customer_update_the_product_quantity_to(String)
+    Then customer verify shipping cost as "shipping.charge.order.product-freeShipping-5" on cart page # FreeShippingSteps.customer_verify_shipping_cost_as_on_cart_page(String)
+    And User verify total "shipping.charge.order.product-price-5" on cart page                        # FreeShippingSteps.user_verify_total_on_cart_page(String)
+    And User remove the product from the cart                                                         # FreeShippingSteps.user_remove_the_product_from_the_cart()
+https://www.bol.com/nl/order/basket.html
+
+  Scenario Outline: Verify shipping charges is free or not for the orderable product                  # freeShipping.feature:18
+    Given customer is on bol.com page                                                                 # FreeShippingSteps.customer_is_on_bol_com_page()
+    And customer verify language as "locale-language"                                                 # FreeShippingSteps.customer_verify_language_as(String)
+    And customer search for a product "shipping.charge.order.product-name-2"                          # FreeShippingSteps.customer_search_for_a_product(String)
+    And customer click on a search button                                                             # FreeShippingSteps.customer_click_on_a_search_button()
+    And customer click on add to cart button                                                          # FreeShippingSteps.customer_click_on_add_to_cart_button()
+    When customer click on continueOrder button                                                       # FreeShippingSteps.customer_click_on_continueOrder_button()
+    And customer update the product quantity to "shipping.charge.order.product-quantity-2"            # FreeShippingSteps.customer_update_the_product_quantity_to(String)
+    Then customer verify shipping cost as "shipping.charge.order.product-freeShipping-2" on cart page # FreeShippingSteps.customer_verify_shipping_cost_as_on_cart_page(String)
+      java.lang.AssertionError: expected [NoGratis] but found [Gratis]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:513)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+      	at org.testng.Assert.assertEquals(Assert.java:116)
+      	at org.testng.Assert.assertEquals(Assert.java:190)
+      	at org.testng.Assert.assertEquals(Assert.java:200)
+      	at com.lat.test.steps.pages.FreeShippingPages.verifyShippingCost(FreeShippingPages.java:155)
+      	at com.lat.test.steps.gui.FreeShippingSteps.customer_verify_shipping_cost_as_on_cart_page(FreeShippingSteps.java:67)
+      	at âœ½.Then customer verify shipping cost as "shipping.charge.order.product-freeShipping-2" on cart page(freeShipping.feature:11)
+
+    And User verify total "shipping.charge.order.product-price-2" on cart page                        # FreeShippingSteps.user_verify_total_on_cart_page(String)
+    And User remove the product from the cart                                                         # FreeShippingSteps.user_remove_the_product_from_the_cart()
+https://www.bol.com/nl/order/basket.html
+
+  Scenario Outline: Verify shipping charges is free or not for the orderable product                  # freeShipping.feature:19
+    Given customer is on bol.com page                                                                 # FreeShippingSteps.customer_is_on_bol_com_page()
+    And customer verify language as "locale-language"                                                 # FreeShippingSteps.customer_verify_language_as(String)
+    And customer search for a product "shipping.charge.order.product-name-3"                          # FreeShippingSteps.customer_search_for_a_product(String)
+    And customer click on a search button                                                             # FreeShippingSteps.customer_click_on_a_search_button()
+    And customer click on add to cart button                                                          # FreeShippingSteps.customer_click_on_add_to_cart_button()
+    When customer click on continueOrder button                                                       # FreeShippingSteps.customer_click_on_continueOrder_button()
+    And customer update the product quantity to "shipping.charge.order.product-quantity-3"            # FreeShippingSteps.customer_update_the_product_quantity_to(String)
+    Then customer verify shipping cost as "shipping.charge.order.product-freeShipping-3" on cart page # FreeShippingSteps.customer_verify_shipping_cost_as_on_cart_page(String)
+      java.lang.AssertionError: expected [NoGratis] but found [Gratis]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:513)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+      	at org.testng.Assert.assertEquals(Assert.java:116)
+      	at org.testng.Assert.assertEquals(Assert.java:190)
+      	at org.testng.Assert.assertEquals(Assert.java:200)
+      	at com.lat.test.steps.pages.FreeShippingPages.verifyShippingCost(FreeShippingPages.java:155)
+      	at com.lat.test.steps.gui.FreeShippingSteps.customer_verify_shipping_cost_as_on_cart_page(FreeShippingSteps.java:67)
+      	at âœ½.Then customer verify shipping cost as "shipping.charge.order.product-freeShipping-3" on cart page(freeShipping.feature:11)
+
+    And User verify total "shipping.charge.order.product-price-3" on cart page                        # FreeShippingSteps.user_verify_total_on_cart_page(String)
+    And User remove the product from the cart                                                         # FreeShippingSteps.user_remove_the_product_from_the_cart()
+
+  Scenario Outline: Verify shipping charges is free or not for the orderable product                  # freeShipping.feature:20
+    Given customer is on bol.com page                                                                 # FreeShippingSteps.customer_is_on_bol_com_page()
+    And customer verify language as "locale-language"                                                 # FreeShippingSteps.customer_verify_language_as(String)
+    And customer search for a product "shipping.charge.order.product-name-4"                          # FreeShippingSteps.customer_search_for_a_product(String)
+    And customer click on a search button                                                             # FreeShippingSteps.customer_click_on_a_search_button()
+    And customer click on add to cart button                                                          # FreeShippingSteps.customer_click_on_add_to_cart_button()
+    When customer click on continueOrder button                                                       # FreeShippingSteps.customer_click_on_continueOrder_button()
+    And customer update the product quantity to "shipping.charge.order.product-quantity-4"            # FreeShippingSteps.customer_update_the_product_quantity_to(String)
+    Then customer verify shipping cost as "shipping.charge.order.product-freeShipping-4" on cart page # FreeShippingSteps.customer_verify_shipping_cost_as_on_cart_page(String)
+    And User verify total "shipping.charge.order.product-price-4" on cart page                        # FreeShippingSteps.user_verify_total_on_cart_page(String)
+    And User remove the product from the cart                                                         # FreeShippingSteps.user_remove_the_product_from_the_cart()
+]]></system-out>
+    <system-err><![CDATA[Jul 07, 2019 3:14:15 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 33393
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1562505258.026][WARNING]: This version of ChromeDriver has not been tested with Chrome version 75.
+Jul 07, 2019 3:14:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+[main] INFO com.lat.test.steps.pages.FreeShippingPages -  [ ProductName is: PrintAbout - Inktcartridge / Alternatief voor de HP 301XL / Zwart ]
+[main] INFO com.lat.test.steps.pages.FreeShippingPages - [ ActualShippingCost is: Gratis ]
+[main] ERROR com.lat.test.steps.gui.BolTestHooks - [ Test execution failed for scenario: Verify shipping charges is free or not for the orderable product ]
+[main] INFO com.lat.test.steps.pages.FreeShippingPages -  [ ProductName is: Structuurjunkie 4 - Structuurjunkie planner light - Poederroze ]
+[main] INFO com.lat.test.steps.pages.FreeShippingPages - [ ActualShippingCost is: â‚¬ 2,99 ]
+[main] INFO com.lat.test.steps.pages.FreeShippingPages -  [ ProductName is: 2.0 hi speed USB Card Reader ]
+[main] INFO com.lat.test.steps.pages.FreeShippingPages - [ ActualShippingCost is: Gratis ]
+[main] ERROR com.lat.test.steps.gui.BolTestHooks - [ Test execution failed for scenario: Verify shipping charges is free or not for the orderable product ]
+[main] INFO com.lat.test.steps.pages.FreeShippingPages -  [ ProductName is: Tablet2you - Laptop sleeve - hoes - Macbook Pro 15.4 - Denim - Zwart ]
+[main] INFO com.lat.test.steps.pages.FreeShippingPages - [ ActualShippingCost is: Gratis ]
+[main] ERROR com.lat.test.steps.gui.BolTestHooks - [ Test execution failed for scenario: Verify shipping charges is free or not for the orderable product ]
+[main] INFO com.lat.test.steps.pages.FreeShippingPages -  [ ProductName is: Mascha Planner Business edition - Nieuwste editie ]
+[main] INFO com.lat.test.steps.pages.FreeShippingPages - [ ActualShippingCost is: Gratis ]
+]]></system-err>
+  </testcase>
+</testsuite>
