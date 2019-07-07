@@ -20,3 +20,8 @@ The test automation framework is comprised of following tools and libraries
 * Maven - Build tool  
 * PicoContainer - Standard Dependency Injection
 * Eclipse - Integrated Development Environment
+
+Reporting
+------------------
+Maven-cucmber report
+Extent-report
