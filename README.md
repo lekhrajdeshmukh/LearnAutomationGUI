@@ -23,5 +23,5 @@ The test automation framework is comprised of following tools and libraries
 
 Reporting
 ------------------
-Maven-cucmber report
-Extent-report
+* Maven-cucmber report
+* Extent-report
